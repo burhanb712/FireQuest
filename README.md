@@ -4,4 +4,4 @@
 
 -The scene of the project is located in Assest/Scene folder
 
--The charachter moves in the scene using awsd keys and the view point is controlled by mouse
+-The charachter moves in the scene using AWSD keys and the view point is controlled by mouse
