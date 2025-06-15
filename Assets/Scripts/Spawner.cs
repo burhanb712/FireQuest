@@ -11,9 +11,9 @@ public class Spawner : MonoBehaviour
         int iterationCount = 200;
         for (int i = 0; i < iterationCount; i++)
         {
-            int spawnPointx = Random.Range(0, 120);
-            int spawnPointy = Random.Range(2, 6);
-            int spawnPointz = Random.Range(-60, 60);
+            int spawnPointx = Random.Range(30, 120);
+            int spawnPointy = Random.Range(2, 3);
+            int spawnPointz = Random.Range(-50, 60);
 
             Vector3 spawnPosition = new Vector3(spawnPointx, spawnPointy, spawnPointz);
 
