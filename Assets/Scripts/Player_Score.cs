@@ -6,7 +6,7 @@ public class Player_Score : MonoBehaviour
 {
     public int score = 0;
     public TMP_Text scoreText;
-    public int target = 30;
+    public int target = 20;
     public float totalTime = 180f; // Total time in seconds
     private float currentTime;
     private float time_done = 0f;
@@ -68,12 +68,14 @@ public class Player_Score : MonoBehaviour
     public void IncrementScore(int amount)
     {
         score += amount;
+        Debug.Log("score : " + score.ToString());
         UpdateScoreText();
     }
 
     void UpdateScoreText()
     {
-        scoreText.text = "Score: " + score.ToString();
+        Debug.Log("score : " + score.ToString());
+        scoreText.text = "Score: " + score.ToString() + " / " + target.ToString();
     }
 
 

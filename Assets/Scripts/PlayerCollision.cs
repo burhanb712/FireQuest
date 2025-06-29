@@ -13,7 +13,7 @@ public class PlayerCollision : MonoBehaviour
     void OnParticleCollision(GameObject other)
     {
         Destroy(gameObject);
-
+        Debug.Log(Player_Score);
         if (Player_Score != null)
         {
             Player_Score.IncrementScore(scoreValue);
