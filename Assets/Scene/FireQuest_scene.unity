@@ -2121,8 +2121,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a91702d3fd320d749a7a08bdf2c5da81, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SensX: 40
-  SensY: 40
+  SensX: 20
+  SensY: 20
   playerCamera: {fileID: 620321257}
   verticalRotationLimit: 60
   MoveCamera: 0
