@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8723461770243791743}
   - component: {fileID: 7234895248809126098}
   - component: {fileID: 3415927245348612235}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Ashes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4853,7 +4853,7 @@ GameObject:
   - component: {fileID: 5589278639119822644}
   - component: {fileID: 2104151986909611599}
   - component: {fileID: 1554108587470130511}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Sparkles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9753,7 +9753,7 @@ GameObject:
   - component: {fileID: 6261296338349454840}
   - component: {fileID: 6100407400656749137}
   - component: {fileID: 8274860978047510816}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Sparkles Handler
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14683,7 +14683,7 @@ GameObject:
   - component: {fileID: 7725773826809478306}
   - component: {fileID: 7362873326358193859}
   - component: {fileID: 4765668986698542331}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19534,7 +19534,7 @@ GameObject:
   - component: {fileID: 7004215306047090060}
   - component: {fileID: 2375201039106683625}
   - component: {fileID: 7326915200721114938}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Flames Secondary
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24376,7 +24376,7 @@ GameObject:
   - component: {fileID: 4145591156296750619}
   - component: {fileID: 2942359538023881217}
   - component: {fileID: 5002624857657970101}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Heat Distortion
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29218,7 +29218,7 @@ GameObject:
   - component: {fileID: 7977752047692249711}
   - component: {fileID: 2053583067306098826}
   - component: {fileID: 2359408214380708955}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Flames Big
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34062,7 +34062,7 @@ GameObject:
   - component: {fileID: 8829451551789304543}
   - component: {fileID: 3630983130738417110}
   - component: {fileID: 9146876521288585446}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: VFX_Fire_01_Big
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37849,7 +37849,7 @@ ParticleSystem:
     radiusScale: 1
     collidesWith:
       serializedVersion: 2
-      m_Bits: 8
+      m_Bits: 72
     maxCollisionShapes: 256
     quality: 0
     voxelSize: 0.5
@@ -39008,3 +39008,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a6a6ab3773ebdf41aea4c3ed6eb2b5d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Player_Score: {fileID: 0}

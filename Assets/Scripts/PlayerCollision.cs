@@ -12,7 +12,6 @@ public class PlayerCollision : MonoBehaviour
     }
     void OnParticleCollision(GameObject other)
     {
-        Debug.Log("Hit: " + other.name + " With : " + gameObject.name);
         Destroy(gameObject);
 
         if (Player_Score != null)

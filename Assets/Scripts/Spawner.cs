@@ -8,7 +8,7 @@ public class Spawner : MonoBehaviour
 
     void Start()
     {
-        int iterationCount = 200;
+        int iterationCount = 100;
         for (int i = 0; i < iterationCount; i++)
         {
             int spawnPointx = Random.Range(30, 120);

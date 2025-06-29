@@ -21,6 +21,7 @@ public class PlayerMovement : MonoBehaviour
     int maxZ = 70;
 
     bool readyToJump = true;
+    public bool okaytoMove = false;
 
     //[Header("Ground Check")]
     //public float playerHeight;
@@ -48,8 +49,11 @@ public class PlayerMovement : MonoBehaviour
     private void Update()
     {
         //grounded = Physics.Raycast(transform.position, Vector3.down, playerHeight * 0.5f + 0.2f, whatIsGround);
-        MyInput();
-        SpeedControl();
+        if (okaytoMove)
+        {
+            MyInput();
+            SpeedControl();
+        }
         //if (grounded)
         //    rb.linearDamping = groundDrag;
         //else
@@ -60,6 +64,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
+        
         MovePlayer();
     }
     private void MyInput()
@@ -70,7 +75,6 @@ public class PlayerMovement : MonoBehaviour
         
         if (Input.GetKey(jumpKey) && readyToJump && grounded)
         {
-            Debug.Log("calling the jump function");
             readyToJump = false;
 
             Jump();
